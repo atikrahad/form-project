@@ -52,3 +52,30 @@ nav h1, h3, p{
     height: 50px;
     border-radius: 50px;
 }
+main{
+    margin: 200px;
+}
+.ifame{
+    float: left;
+    margin: 40px 20px;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+}
+iframe{
+    width: 430px;
+    height: 300px;
+    border: 1px solid black;
+    box-shadow: 2px 4px 16px 8px;
+    margin-bottom: 35px;
+}
+.cont a{
+    padding: 10px;
+    background-image: linear-gradient(45deg, rgba(255, 0, 0, 0.767) , rgba(0, 0, 255, 0.678));
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 10px;
+}
